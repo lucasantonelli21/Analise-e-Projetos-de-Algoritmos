@@ -61,7 +61,7 @@ def Dijkstra(n,m):
     for i in range(n):
         print(f"Caminho minimo entre {source}--{i} = {L[i]}")
     print(" ")
-    print(f"Arvore de caminhos minimos com a raiz {source}")
+    print(f"Arvore de caminhos minimos com a raiz {source} ")
     print(father)
 
 
