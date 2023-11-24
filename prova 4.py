@@ -29,7 +29,7 @@ def Dijkstra(n,m):
                 linha.append(infinity)
         price.append(linha)
     for j in range(m):
-        a, b, c = input().split() # lendo arestas de a para b com custo c
+        a, b, c = input().split() #  lendo arestas de a para b com custo c
         a = int(a)
         b = int(b)
         c = int(c)
